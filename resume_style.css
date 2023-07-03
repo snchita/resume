@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 165px;
+    background: rgba(223, 246, 193, 0.693);
+    padding: 15px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+.image img{
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.name{
+    padding-right: 40px;
+    padding-top: 40px ;
+}
+.heading{
+    display: flex;
+    padding: 5px;
+    margin-top: 10px;
+    background: rgba(128, 128, 128, 0.27);
+    justify-content: center;
+    text-align: center;
+}
+.career_obj{
+    display: block;
+}
+.career_obj p{
+    margin-top: 10px;
+    padding: 5px;
+    margin-left: 20px;
+}
+.table{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+table, td ,tr th{
+    border: 1px solid black;
+    width: 400px;  
+    border-collapse: collapse;
+}
+td{
+    height: 80px;
+    padding: 5px;
+    text-align: center;
+}
+th{
+    padding: 10px;
+}
+.details{
+    padding: 20px;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+.list{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
