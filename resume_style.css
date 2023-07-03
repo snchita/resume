@@ -41,7 +41,7 @@ header{
     justify-content: center;
     text-align: center;
 }
-table, td ,tr th{
+table td ,tr th{
     border: 1px solid black;
     width: 400px;  
     border-collapse: collapse;
